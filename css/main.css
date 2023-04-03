@@ -8,6 +8,7 @@
     font-family: 'poppins', sans-serif;
 }
 
+/*  STYLES FOR FIRST HERO SECTION */
 .wrapper{
     background: url("../images/bg-desktop.svg") no-repeat;
     height: 100vh;
@@ -49,6 +50,12 @@
     color: #fff;
 }
 
+/* Making the image responsive */
+.responsive {
+    width: 100%;
+    height: auto;
+  }
+
 .social{
     display: flex;
     justify-content: flex-end;
@@ -71,6 +78,15 @@
 
 /*  MEDIA QUERIES */
 
+@media screen and (min-width: 865px) and (max-width: 1024px){
+    .wrapper{
+        height: 120vh;
+    }
+
+    .social{
+        margin-top: 50px;
+    }
+}
 
 @media screen and (max-width: 864px){
     .wrapper{
@@ -99,16 +115,4 @@
     }
 }
 
-/* @media screen and (min-width: 769px) and (max-width: 991px){
-    .wrapper{
-        width: 100%;
-        overflow-x: hidden;
-    }
-    .banner{
-        flex-direction: row;
-    }
-
-    .banner .image{
-        max-width: 20% !important;
-    }
-} */
+/* END OF STYLES FOR FIRST HERO SECTION */
