@@ -43,6 +43,11 @@
     border-radius: 25px;
     background: #fff;
     color: blueviolet;
+    text-decoration: none;
+}
+
+.banner .description a:hover{
+    text-decoration: none;
 }
 
 .banner .description button:hover{
