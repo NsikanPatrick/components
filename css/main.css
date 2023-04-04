@@ -38,7 +38,7 @@
     margin-bottom: 20px;
 }
 
-.banner .description button{
+.banner .description a{
     padding: 15px 60px;
     border-radius: 25px;
     background: #fff;
