@@ -137,6 +137,12 @@
     /* justify-content: stretch; */
     gap: 10px 30px;
 }
+/* The quotation svg image */
+.quotation{
+    margin-left: 250px;
+    margin-top: -30px;
+    margin-bottom: -50px;
+}
 
 .testimonials h2{
     margin-bottom: 10px;
@@ -221,6 +227,10 @@
         flex-flow: row wrap;
         row-gap: 40px;
     }
+
+    .quotation{
+        margin-left: 10px;
+    }
 }
 
 @media  screen and (min-width: 769px) and (max-width: 880px){
@@ -231,11 +241,16 @@
     .bottom .left-testimonial{
         width: 40%;
     }
+    /* The quotation svg image */
+    .quotation{
+        margin-left: 80px;
+    }
 }
 
 @media  screen and (max-width: 768px){
     .testimonials-wrapper{
         height: 350vh;
+        padding: 18px 18px;
     }
 
     .testimonials{
@@ -260,6 +275,10 @@
     .testimonials .right{
         background-color: #a07676;
         width: 100%;
+    }
+    /* The quotation svg image */
+    .quotation{
+        margin-left: 50px;
     }
 }
 
