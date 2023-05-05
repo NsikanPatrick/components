@@ -125,7 +125,7 @@
 
 /* STYLES FOR THE TESTIMONIALS SECTION */
 .testimonials-wrapper{
-    height: 130vh;
+    height: 200vh;
     width: 100%;
     background-color: hsl(226, 35%, 93%);
     padding: 18px 50px;
@@ -220,7 +220,7 @@
 /* MEDIA QUERIES */
 @media  screen and (min-width: 769px) and (max-width: 1124px){
     .testimonials-wrapper{
-        height: 200vh;
+        height: 250vh;
     }
 
     .testimonials{
@@ -249,7 +249,7 @@
 
 @media  screen and (max-width: 768px){
     .testimonials-wrapper{
-        height: 350vh;
+        height: 400vh;
         padding: 18px 18px;
     }
 
